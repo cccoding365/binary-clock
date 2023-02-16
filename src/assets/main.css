@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(30, 30, 30);
+}
+
+#app {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+@media (hover: hover) {
+  a:hover {
+    opacity: .5;
+  }
+}
+
+@media (min-width: 1024px) {}
